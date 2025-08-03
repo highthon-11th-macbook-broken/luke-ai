@@ -1,0 +1,27 @@
+# FastAPI & 서버
+fastapi
+uvicorn[standard]
+pydantic
+
+# 데이터베이스
+sqlalchemy
+alembic
+
+# Redis & Celery
+redis
+celery
+
+# 크롤링
+scrapy
+beautifulsoup4
+requests
+aiohttp
+
+# AI & 분석
+python-dotenv
+
+# 유틸리티
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+faker 
