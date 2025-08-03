@@ -67,6 +67,10 @@ redis-server
 ```bash
 # Faker를 사용한 현실적인 유출 데이터 생성
 python scripts/load_sample_data.py
+
+# 또는 대용량 유출 데이터 다운로드 (선택사항)
+# 주의: rockyou.txt (133MB)는 GitHub에서 제외됨
+# 로컬에서만 사용 가능한 대용량 파일들
 ```
 
 ### 5. Celery 워커 실행 (백그라운드 작업용)
